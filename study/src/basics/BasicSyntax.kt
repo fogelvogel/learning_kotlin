@@ -19,4 +19,10 @@ fun main(args: Array<String>){
     println(five.toFloat() is Float);
     println(five.toLong() is Long);
 
+    println("Введите свое имя:");
+
+    var nameNullable: String? = readLine();
+    var name = nameNullable;
+
+    println("Здравствуйте, $name");
 }
