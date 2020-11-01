@@ -9,20 +9,22 @@ fun main(args: Array<String>){
     var helloVar: String = "hello";
     var aplanaVar: String = "aplana";
 
-    println("$helloVar $aplanaVar");
+//    println("$helloVar $aplanaVar");
+//
+//    var five: Char = '5';
+//    println(five.toString() is String);
+//    println(five.toByte() is Byte);
+//    println(five.toShort() is Short);
+//    println(five.toDouble() is Double);
+//    println(five.toFloat() is Float);
+//    println(five.toLong() is Long);
+//
+//    println("Введите свое имя:");
+//
+//    var nameNullable: String? = readLine();
+//    var name = nameNullable;
+//
+//    println("Здравствуйте, $name");
 
-    var five: Char = '5';
-    println(five.toString() is String);
-    println(five.toByte() is Byte);
-    println(five.toShort() is Short);
-    println(five.toDouble() is Double);
-    println(five.toFloat() is Float);
-    println(five.toLong() is Long);
-
-    println("Введите свое имя:");
-
-    var nameNullable: String? = readLine();
-    var name = nameNullable;
-
-    println("Здравствуйте, $name");
+    var alphabet = "z" .. "a";
 }
