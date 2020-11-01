@@ -9,5 +9,5 @@ fun main(args: Array<String>){
     var helloVar: String = "hello";
     var aplanaVar: String = "aplana";
 
-    println(helloVar + " " + aplanaVar);
+    println("$helloVar $aplanaVar");
 }
