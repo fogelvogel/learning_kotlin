@@ -10,4 +10,13 @@ fun main(args: Array<String>){
     var aplanaVar: String = "aplana";
 
     println("$helloVar $aplanaVar");
+
+    var five: Char = '5';
+    println(five.toString() is String);
+    println(five.toByte() is Byte);
+    println(five.toShort() is Short);
+    println(five.toDouble() is Double);
+    println(five.toFloat() is Float);
+    println(five.toLong() is Long);
+
 }
