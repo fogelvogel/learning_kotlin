@@ -27,4 +27,13 @@ fun main(args: Array<String>){
 //    println("Здравствуйте, $name");
 
     var alphabet = "z" .. "a";
+    println("Введите число a:");
+    var varNullableA: String? = readLine();
+    println("Введите число b:");
+    var varNullableB: String? = readLine();
+    var varA: String = varNullableA!!;
+    var varB: String = varNullableB!!;
+
+
+    println(varA > varB);
 }
