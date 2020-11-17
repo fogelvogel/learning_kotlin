@@ -1,27 +1,7 @@
 package OOP
 
-class Aircraft {
-    var tailNumber: String = "unknown"
+class Aircraft (val tailNumber: String, val flightDistance: Int, val capacity: Int) {
 
-        get() = field
-
-        set(value){
-                field = value
-        }
-    var flightDistance: Int = 5000
-
-        get() = field
-
-        set(value){
-            field = value
-        }
-    var capacity: Int = 3000
-
-        get() = field
-
-        set(value){
-            field = value
-        }
     var fuelConsumption = 0.0
         get() = (capacity.toDouble() / flightDistance.toDouble()) * 100
 
