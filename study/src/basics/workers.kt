@@ -15,7 +15,7 @@ fun main(args: Array<String>){
                 val worker = readLine()!!
                 println("Введите номер рабочего места сотрудника")
                 val seat = readLine()!!.toInt()
-                workersSeats.put(seat, worker);
+                workersSeats[seat] = worker
             }
             "2" -> for (i in workersSeats) {
                 println(i)
@@ -23,7 +23,7 @@ fun main(args: Array<String>){
             "3" -> {
                 println("Введите номер рабочего места сотрудника")
                 val seat = readLine()!!.toInt()
-                println(workersSeats.get(seat))
+                println(workersSeats[seat])
             }
 
             "4" -> break
