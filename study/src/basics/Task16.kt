@@ -1,9 +1,11 @@
 package basics
 
+import kotlin.math.sqrt
+
 fun main(args: Array<String>) {
     fun Double.sqrt(): Double {
 
-        return kotlin.math.sqrt(this)
+        return sqrt(this)
 
     }
     var test: Double = 121.0;
