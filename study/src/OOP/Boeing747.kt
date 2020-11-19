@@ -10,9 +10,4 @@ class Boeing747(
     init {
         passengerQuantity = passengers
     }
-
-    override fun printInfo(){
-        super.printInfo()
-        println("вместимость пассажиров: $passengerQuantity")
-    }
 }
