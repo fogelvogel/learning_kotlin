@@ -4,6 +4,10 @@ class Boeing747(
         tailNumber: String,
         flightDistance: Int,
         capacity: Int,
-        val passengersQuantity: Int
-): Aircraft(tailNumber, flightDistance, capacity) {
+        passengers: Int
+): Aircraft(tailNumber, flightDistance, capacity), Passenger {
+    override val passengerQuantity: Int
+    init {
+        passengerQuantity = passengers
+    }
 }
