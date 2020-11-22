@@ -17,4 +17,8 @@ abstract class Aircraft (
         println("макс. дальность полета: $flightDistance")
         println("вместимость бака: $capacity")
     }
+
+    open fun printShortInfo() {
+        println("самолет: $tailNumber")
+    }
 }
